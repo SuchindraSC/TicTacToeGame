@@ -4,8 +4,11 @@ using System.Text;
 
 namespace TicTacToeBoard
 {
-    public static class TicToeGame
+    public  class TicToeGame
     {
-        static char[] board = { '0','1','2','3','4','5','6','7','8','9'};
+        public static void tictactoeUC1()
+        {
+            char[] board = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+        }
     }
 }
